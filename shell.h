@@ -1,4 +1,5 @@
 #ifndef _SHELL_H
+
 #define _SHELL_H
 
 #include <stdio.h>
@@ -6,6 +7,11 @@
 #include <string.h>
 #include <unistd.h>
 #include <sys/wait.h>
+
+/* for read/write buffers */
+#define READ_BUF_SIZE 1024
+#define WRITE_BUF_SIZE 1024
+#define BUF_FLUSH -1
 
 
 #endif /* SHELL_H */
